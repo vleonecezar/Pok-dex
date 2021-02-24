@@ -31,7 +31,7 @@ As imagens vieram da API (https://pokeres.bastionbot.org/)
 ### Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="PokedexWebSite" src="./assets/readme/web-gif.gif" width="600px" height="300px">
+  <img alt="PokedexWebSite" src="./assets/readme/web-gif.gif" width="800px" height="400px">
 </p>
 
 ### Mobile
