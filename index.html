@@ -2,14 +2,26 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>PokeDex</title>
+  <title>Pokédex</title>
   <link rel="stylesheet" href="./style.css" />
   <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" />
 </head>
 <body>
 
   <div class="container">
-    <h1>Pokedex</h1>
+      <h1>Pokédex</h1>
+
+      <select name="generations" id="generations">
+        <option value="all">Todas as Gerações</option>
+        <option value="first">Primeira Geração</option>
+        <option value="second">Segunda Geração</option>
+        <option value="third">Terceira Geração</option>
+        <option value="fourth">Quarta Geração</option>
+        <option value="fifth">Quinta Geração</option>
+        <option value="sixth">Sexta Geração</option>
+        <option value="seventh">Sétima Geração</option>
+      </select>
+
     <ul data-js="pokedex" class="pokedex"></ul>
   </div>
   
