@@ -1,9 +1,12 @@
 const getPokemonUrl = id => `https://pokeapi.co/api/v2/pokemon/${id}`
 
-const pokeQuantity = 898
+let pokeQuantity = 151
+let starterNumber = 1
 
-const generatePokemonPromises = () => Array(pokeQuantity).fill().map((_, index) =>
-  fetch(getPokemonUrl(index + 1)).then(response => response.json()))
+const generatePokemonPromises = (quantity, starter) => (
+  Array(quantity).fill().map((_, index) =>
+  fetch(getPokemonUrl(starter + index)).then(response => response.json()))
+)
 
 const generateHTML = pokemons => pokemons.reduce((acc, { name, id, types }) => {
     const elementTypes = types.map(typeInfo => typeInfo.type.name)
@@ -24,15 +27,15 @@ const insertPokemonsIntoPage = pokemons => {
   ul.innerHTML = pokemons
 }
 
-async function init (first, last) {
-  const pokemonPromises = generatePokemonPromises()
+async function init () {
+  const pokemonPromises = generatePokemonPromises(pokeQuantity, starterNumber)
 
-  Promise.all(pokemonPromises.slice(first, last))
+  Promise.all(pokemonPromises)
     .then(generateHTML)
     .then(insertPokemonsIntoPage)
 }
 
-init(0, 151)
+init()
 
 document.querySelector('#generations')
   .addEventListener('change', event => {
@@ -40,35 +43,51 @@ document.querySelector('#generations')
 
     switch (choosenOption) {
       case 'first':
-        init(0, 151)
+        pokeQuantity = 151
+        starterNumber = 1
+        init()
         break;
     
       case 'second':
-        init(151, 251)
+        pokeQuantity = 100
+        starterNumber = 152
+        init()
         break;
     
       case 'third':
-        init(251, 386)
+        pokeQuantity = 135
+        starterNumber = 252
+        init()
         break;
     
       case 'fourth':
-        init(386, 493)
+        pokeQuantity = 107
+        starterNumber = 387
+        init()
         break;
     
       case 'fifth':
-        init(493, 649)
+        pokeQuantity = 156
+        starterNumber = 494
+        init()
         break;
     
       case 'sixth':
-        init(649, 721)
+        pokeQuantity = 72
+        starterNumber = 650
+        init()
         break;
     
       case 'seventh':
-        init(721, 809)
+        pokeQuantity = 88
+        starterNumber = 722
+        init()
         break;
     
       case 'eighth':
-        init(809, 898)
+        pokeQuantity = 89
+        starterNumber = 810
+        init()
         break;
     
       default:
