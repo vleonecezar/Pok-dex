@@ -6,7 +6,7 @@
 
 ## 🗒️ Sobre o projeto
 
-Pokédex que lista os 150 pokémons da primeira geração.
+Pokédex que exibe os pokémons de acordo com a geração escolhida (8 Gerações até a data de hoje.)
 
 Cada pokémon é mostrado conforme sua numeração, na ordem de suas evoluções e estilizados de acordo com o seu tipo.
 
