@@ -6,13 +6,15 @@
 
 ## 🗒️ Sobre o projeto
 
-Pokédex que exibe os pokémons de acordo com a geração escolhida (8 Gerações até a data de hoje.)
+Pokédex que exibe os pokémons de acordo com a geração escolhida.
 
 Cada pokémon é mostrado conforme sua numeração, na ordem de suas evoluções e estilizados de acordo com o seu tipo.
 
-Exceto as imagens, todas as informações dos pokémons vieram de uma API (https://pokeapi.co/), porém era necessário que a mesma fosse invocada para cada pokémon. Então, ao invés de usar um "for", foi criado um array de 150 itens vazios e através do "fill( )" e "map( )" foi gerado um novo array com os 150 pokémons que foram invocados da API, usando o index dos 150 itens do Array anterior como referência.
+Todas as informações dos pokémons vieram de uma API (https://pokeapi.co/), Exceto as imagens, porém era necessário que a mesma fosse invocada para cada pokémon. Então, ao invés de usar um "for", foi criado um array de 150 itens vazios e através do "fill( )" e "map( )" foi gerado um novo array com os 150 pokémons que foram invocados da API, usando o index dos 150 itens do Array anterior como referência.
 
 As imagens vieram da API (https://pokeres.bastionbot.org/)
+
+<a href="https://vleonecezar.github.io/pokedex/">CLIQUE AQUI PARA TESTAR</a>
 
 ---
 
