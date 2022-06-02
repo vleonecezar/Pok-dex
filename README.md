@@ -1,31 +1,51 @@
-# Pokedex <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png" width="50" />
-
-<div align="center">
-  <a href="#-sobre">Sobre</a> | <a href="#-tecnologias">Tecnologias</a> | <a href="#-teste-a-aplicação">Teste a Aplicação</a> 
-</div>
-<br>
-
 <div align="center">
 
-![poke-removebg-preview](https://user-images.githubusercontent.com/76831929/156303126-1385014a-0f93-473f-98f3-bd178915d82b.png)
+![FRLGArt_Pokedex](https://user-images.githubusercontent.com/76831929/171559728-bd8f122a-4022-410d-8971-4e286012e949.png)
+  
+# Pokédex
+
+#### Essa Aplicação Exibe Todos os Pokémons e Seus Respectivos Tipos da Primeira até a Oitava Geração.
+
+[Funcionalidades](#funcionalidades) • [Tecnologias](#tecnologias) • [Como Usar](#como-usar)
+
+![156303126-1385014a-0f93-473f-98f3-bd178915d82b](https://user-images.githubusercontent.com/76831929/171560089-59638268-b4a3-46fd-b1c8-afd85d19f76b.png)
+
+### [Teste a Aplicação](https://vleonecezar.github.io/pokedex/)
 
 </div>
 
-# 👨🏻‍🏫 Sobre
-Pokedex é uma aplicação onde você pode visualizar os pokemons e seus tipos da primeira a oitava geração.
+## Funcionalidades
 
-# 🤳🏻 Funcionalidades
+- Seleciona a geração de pokémons a ser exibida.
 
-- Escolha da geração dos pokemons à serem exibidos.
+## Tecnologias
 
-# 🚀 Tecnologias
+- [JavaScript](https://www.w3schools.com/js/)
 
-- <a href="https://www.w3schools.com/js/" target="_blank">JavaScript</a> <br>
+## Como Usar
 
-# 👨🏻‍💻 Teste a aplicação
-Você pode testar a aplicação <a href="https://vleonecezar.github.io/pokedex/" target="_blank">clicando aqui</a>. <br>
+> Para clonar e rodar essa aplicação, você vai precisar do Git instalado em seu computador.
 
-  ### Clone o repositório
+#### Clone o repositório
+
 ```
   git clone https://github.com/vleonecezar/pokedex.git
 ```
+
+#### Abra o repositório
+
+```
+  cd pokedex
+```
+
+#### Rode a aplicação
+
+```
+  Abra o index.html em seu navegador
+```
+
+<hr />
+<div align="center">
+<a href="https://www.linkedin.com/in/vitor-leone-cezar/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<a href="mailto:vleone.job@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+</div>
